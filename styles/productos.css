@@ -269,9 +269,13 @@ footer {
 /* Celulares (pantallas chicas) */
 @media (max-width: 600px) {
   header {
+    display: flex;
     flex-direction: column;
     gap: 15px;
+    position: static;
+    top: unset;
   }
+  
 
   .sub-header {
     flex-direction: column;
@@ -282,7 +286,7 @@ footer {
   .buscador {
     max-width: 100%;
   }
-
+  
   .productos-tarjeta {
     grid-template-columns: 1fr;
     padding: 20px;

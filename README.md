@@ -1,2 +1,10 @@
-# Proyecto-Itba-Final-en-grupo
-Aca voy a ver como evoluciona la pagina web completa
+# ITBA-E-commerce-Muebler-a
+Proyecto fullstack
+
+Integrantes:
+Castro Braian ;
+Almarcha Augusto ;
+Badino Ian
+Funcionalidad Implementada:
+
+Tecnologias utilizadas:

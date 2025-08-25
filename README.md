@@ -1,4 +1,5 @@
 # ITBA-E-commerce-Muebler-a
+Repositorio creado para desplegarlo en GitHub Pages: 
 Proyecto fullstack
 
 Integrantes:

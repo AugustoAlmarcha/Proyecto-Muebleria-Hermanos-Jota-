@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
     background-image: url(https://img.freepik.com/foto-gratis/fondo-textura-marmol-beige-grisaceo_53876-124564.jpg?semt=ais_hybrid&w=740&q=80);
     
@@ -269,13 +273,9 @@ footer {
 /* Celulares (pantallas chicas) */
 @media (max-width: 600px) {
   header {
-    display: flex;
     flex-direction: column;
     gap: 15px;
-    position: static;
-    top: unset;
   }
-  
 
   .sub-header {
     flex-direction: column;
@@ -286,7 +286,7 @@ footer {
   .buscador {
     max-width: 100%;
   }
-  
+
   .productos-tarjeta {
     grid-template-columns: 1fr;
     padding: 20px;

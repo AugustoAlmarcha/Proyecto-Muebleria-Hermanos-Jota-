@@ -1,11 +1,25 @@
-# ITBA-E-commerce-Muebler-a
-Repositorio creado para desplegarlo en GitHub Pages: 
-Proyecto fullstack
+# ITBA E-commerce Mueblería
 
-Integrantes:
-Castro Braian ;
-Almarcha Augusto ;
-Badino Ian
-Funcionalidad Implementada:
+Proyecto **fullstack** desarrollado como parte de la cursada.
 
-Tecnologias utilizadas:
+---
+
+## Integrantes
+- Castro Braian
+- Almarcha Augusto
+- Badino Ian
+- Benjamin Benitez
+- Sequeria Osvaldo
+
+---
+
+## Funcionalidades implementadas
+  - Listado de productos
+  - Carrito de compras
+  - Filtros por categoría
+  - Detalle de producto
+
+---
+
+## Tecnologías utilizadas
+- **Frontend:** HTML, CSS, JavaScript

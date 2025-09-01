@@ -1,14 +1,8 @@
-/* style.css */
-
 /* Reset básico */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-body{
-    background-image: url(https://img.freepik.com/foto-gratis/fondo-textura-marmol-beige-grisaceo_53876-124564.jpg?semt=ais_hybrid&w=740&q=80);
-    
 }
 
 body {
@@ -16,6 +10,9 @@ body {
   line-height: 1.6;
   background-color: #fdfaf6;
   color: #3e2c1c;
+}
+body{
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-textura-marmol-beige-grisaceo_53876-124564.jpg?semt=ais_hybrid&w=740&q=80);
 }
 
 /* Header */
@@ -105,7 +102,7 @@ nav a.active {
 }
 
 .hero-imagen img {
-  max-width: 100%;
+  max-width: 80%;
   border-radius: 12px;
 }
 
@@ -153,8 +150,24 @@ footer {
 @media (min-width: 768px) {
   .hero {
     flex-direction: row;
-    justify-content: space-around;
-    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 95vw;
+    margin: 0 auto;
+    padding: 2rem;
+    gap: 2rem; /* espacio entre texto e imagen */
+    text-align: center; /* más natural en pantallas grandes */
+  }
+
+  .hero-texto {
+    flex: 1;
+    margin-bottom: 0; /* quitamos espacio sobrante */
+  }
+
+  .hero-imagen {
+    flex: 1;
+    display: flex;
+    justify-content: center;
   }
 
   .grid {
